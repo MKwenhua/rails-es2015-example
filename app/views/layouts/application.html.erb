@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rails ES2015</title>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" type="image/png" href="https://vignette1.wikia.nocookie.net/sonic/images/e/e0/1-Up_for_Sonic_Runners.png/revision/latest?cb=20150301162416" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application' %>
+</head>
+
+	<body>
+	  <%= yield %>
+	</body>
+
+</html>

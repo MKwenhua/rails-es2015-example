@@ -1,0 +1,22 @@
+
+
+
+  <div id="loadbox2" style="display:block;">
+    <div  class="loader cn-lang">裝載中. . .</div>
+  </div>
+
+ <section id="mainContent" style="display:none;">
+<section id="container"></section>
+</section>
+ <script type="text/javascript">
+   gotAsset();
+ </script>
+<script src="//cdn.ckeditor.com/4.5.11/standard/ckeditor.js" onload="gotAsset()"></script>
+   <script type="text/javascript">
+    window.setCK = function(idName){
+      console.log('window.setCK called and id is', idName);
+      CKEDITOR.replace(idName);
+    }
+</script>
+ 
+ 
