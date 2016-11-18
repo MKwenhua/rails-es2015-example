@@ -1,10 +1,7 @@
 import React from "react";
-//import TableHeadRow from "./table_head.es6.js";
-const rowHeadConstructor  = require( "./table_head.es6.js");
-//import RowComp from "./table_row.es6.js";
-const rowConstructor = require( "./table_row.es6.js");
 import { Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table';
-
+const rowHeadConstructor  = require( "./table_head.es6.js");
+const rowConstructor = require( "./table_row.es6.js");
 
 export default class TableComp extends React.Component {
   constructor(props) {
