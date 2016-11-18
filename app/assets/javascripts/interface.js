@@ -10,14 +10,16 @@ window.gotAsset = (function() {
 
   const setReact = () => {
   	reactset = true;
-  	const root =  document.getElementById('container');
+  	
+    const root =  document.getElementById('container');
 
-  	ReactDOM.render( 
-     <MuiThemeProvider>
-  		  <Layout  /> 
-  	 </MuiThemeProvider>, root);
- }
-  
+    ReactDOM.render( 
+       <MuiThemeProvider>
+    		  <Layout/> 
+    	 </MuiThemeProvider>, 
+       root);
+    }
+   
   function displayContent() {
     setTimeout(function() {
       var loadbox = document.getElementById('loadbox2');
