@@ -1,6 +1,11 @@
 import React from "react";
 import TableComp from "./components/table.es6.js";
-
+import SideNav from "./components/side_nav.es6.js";
+const uiItems = [
+    {name: 'Restaurants', icon: 'dashboard'},
+    {name: 'Bars', icon: 'code'},
+    {name: 'Media', icon: "collections"}
+];
 
 const tableData = {
   header: ['name', 'type','attributes' ,'score'],
@@ -41,7 +46,10 @@ export default class Layout extends React.Component {
    
     return (
       <div>
-       <TableComp data={tableData}/>
+       <SideNav uiItems={ uiItems }  />
+       <div id="contentSection">
+          <TableComp data={tableData}/>
+       </div>
       </div>
       );
   }
