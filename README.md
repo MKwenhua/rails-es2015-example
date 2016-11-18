@@ -16,3 +16,4 @@
 	<p>Upcomming Sprockets version that supports plugins. Read: <a href="https://github.com/rails/sprockets/blob/master/UPGRADING.md#es6-support"  target="_block">ES6 Support</a></p>
 	
 </blockquote>
+<p><b>FYI: </b> the <a href="https://github.com/MKwenhua/rails-es2015-example/tree/constructors">constructors branch</a> is the better solution.</p>
