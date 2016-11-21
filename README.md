@@ -24,9 +24,9 @@
 ![layout.js top](https://s3.amazonaws.com/canvasmp3/layout1.png)
 ![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
 <strong>components/table.js</strong>
+![table component](https://s3.amazonaws.com/canvasmp3/table_comp.gif)
+#### components/table.js code overview
 ![table.js](https://s3.amazonaws.com/canvasmp3/table.png)
-#### renders
-![table component](https://s3.amazonaws.com/canvasmp3/table_comp.png)
 <strong>components/table_head.es6.js</strong>
 ![table head row](https://s3.amazonaws.com/canvasmp3/header.png)
 #### code
