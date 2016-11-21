@@ -1,21 +1,16 @@
 import React from "react";
 import {  TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table';
 
-export default class TableHeadRow extends React.Component {
-  render () {
-    let {data} = this.props;
+
+const rowHeadConstructor = (data, selected) => {
     let thList = data.map((itm, i) => {
        return <TableHeaderColumn key={'th_' + i}>{itm}</TableHeaderColumn>;
     });
     return (
-      <TableRow>
+      <TableRow key="tb_head" selected={ selected }>
        {thList}
       </TableRow>
     );
-  }
 }
 
-TableHeadRow.propTypes = {
-  cl: React.PropTypes.string,
-  data: React.PropTypes.array
-};
+module.exports = rowHeadConstructor

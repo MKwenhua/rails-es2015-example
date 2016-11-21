@@ -22,9 +22,7 @@ const arrayCheck = (datum) => {
     return Array.isArray(datum) ? tagList(datum) : datum;
 };
 
-export default class RowComp extends React.Component {
-  render () {
-    let {data, index, selected} = this.props;
+module.exports = (data, index, selected) => {
     let columns = Object.keys(data).map((itm, i) => {
       let labelClass = typeof data[itm] === "number" ? colorRating(data[itm]) : "";
       return (<TableRowColumn key={'td_' + i} className={i < 1 ? "mdl-data-table__cell--non-numeric" : ""}>
@@ -36,13 +34,5 @@ export default class RowComp extends React.Component {
         {columns}
       </TableRow>
     );
-  }
 }
 
-TableRow.propTypes = {
-    key: React.PropTypes.string,
-    cl: React.PropTypes.string,
-    index: React.PropTypes.string,
-    selected: React.PropTypes.bool,
-    data: React.PropTypes.object
-};
