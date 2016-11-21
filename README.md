@@ -20,7 +20,11 @@
 #File Overview
 <strong>interface.js</strong>
 ![interface.js](https://s3.amazonaws.com/canvasmp3/interface_js.png)
-
+<strong>layout.js</strong>
+![layout.js top](https://s3.amazonaws.com/canvasmp3/layout1.png)
+![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
+<strong>components/table.js</strong>
+![layout.js bottom](https://s3.amazonaws.com/canvasmp3/table.png)
 #React Overview:
 
 <p>will add later</p>
