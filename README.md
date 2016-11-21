@@ -24,7 +24,18 @@
 ![layout.js top](https://s3.amazonaws.com/canvasmp3/layout1.png)
 ![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
 <strong>components/table.js</strong>
-![layout.js bottom](https://s3.amazonaws.com/canvasmp3/table.png)
+![table.js](https://s3.amazonaws.com/canvasmp3/table.png)
+#### renders
+![table component](https://s3.amazonaws.com/canvasmp3/table_comp.png)
+<strong>components/table_head.es6.js</strong>
+![table head row](https://s3.amazonaws.com/canvasmp3/header.png)
+#### code
+![table_head.es6.js](https://s3.amazonaws.com/canvasmp3/tableHeader.png)
+<strong>components/table_row.es6.js</strong>
+![table row](https://s3.amazonaws.com/canvasmp3/row.png)
+#### code
+
+<p>Comming soon. . . . </p>
 #React Overview:
 
 <p>will add later</p>
