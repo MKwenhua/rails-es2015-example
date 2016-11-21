@@ -25,15 +25,15 @@
 ![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
 <strong>components/table.js</strong>
 ![table component](https://s3.amazonaws.com/canvasmp3/table_comp.gif)
-#### components/table.js code overview
+<div style="text-align:center;font-style: italic;">components/table.js code overview</div>
 ![table.js](https://s3.amazonaws.com/canvasmp3/table.png)
 <strong>components/table_head.es6.js</strong>
 ![table head row](https://s3.amazonaws.com/canvasmp3/header.png)
-#### code
+<div style="text-align:center;font-style: italic;">  code </div>
 ![table_head.es6.js](https://s3.amazonaws.com/canvasmp3/tableHeader.png)
 <strong>components/table_row.es6.js</strong>
 ![table row](https://s3.amazonaws.com/canvasmp3/row.png)
-#### code
+<div style="text-align:center;font-style: italic;"> code</div>
 
 <p>Comming soon. . . . </p>
 #React Overview:
