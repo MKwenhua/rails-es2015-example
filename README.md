@@ -18,7 +18,7 @@
 	color: #00d8ff;
 	font-weight: bold;
 }
-.tab-span.active{
+.tab-span.readme-active{
 	color: #00d8ff;
 	font-weight: bold;
 	text-decoration: underline;
@@ -26,7 +26,7 @@
 
 </style>
 <div id="tabOps">
-	<span class="tab-span active" data-idget="setup">Setup</span>
+	<span class="tab-span readme-active" data-idget="setup">Setup</span>
 	<span class="tab-span" data-idget="file">File Overview</span>
 	<span class="tab-span" data-idget="reactRails">React Guide</span>
 	<span class="tab-span" data-idget="es6intro">React ES2015 Guide</span>
@@ -50,12 +50,33 @@
 </blockquote>
 <p><b>FYI: </b> the <a href="https://github.com/MKwenhua/rails-es2015-example/tree/constructors">constructors branch</a> is the better solution.</p>
 </section>
-<section id="reactRails" style="display:none;">
+<section id="file" style="display:none;">
 	<strong>Files Overview:</strong>
+
 </section>
 <section id="reactRails" style="display:none;">
-	<strong></strong>
+	<strong>React Overview:</strong>
 </section>
 <section id="es6intro" style="display:none;">
-	
+	<strong>Some neat ES2015 Features:</strong>
 </section>
+<script>
+ var readMe = {
+ 	onDisplay: 'setup',
+ 	spanDisplay: document.querySelector('.readme-active'),
+ 	file: document.getElementById('file'),
+ 	reactRails: document.getElementById('reactRails'),
+ 	es6intro: document.getElementById('es6intro'),
+ 	setup: document.getElementById('setup'),
+ }
+  document.getElementById('tabOps').onclick = function(e){
+  	if(e.target.className === "tab-span"){
+       readMe.spanDisplay.className = "tab-span";
+       readMe[readMe.onDisplay].style.display = 'none';
+       readMe.onDisplay = e.target.dataset.idget;
+       readMe.spanDisplay = e.target;
+       readMe[readMe.onDisplay].style.display = 'block';
+
+  	}
+  }
+</script>
