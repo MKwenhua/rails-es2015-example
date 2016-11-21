@@ -25,15 +25,15 @@
 ![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
 <strong>components/table.js</strong>
 ![table component](https://s3.amazonaws.com/canvasmp3/table_comp.gif)
-<div style="text-align:center;font-style: italic;">components/table.js code overview</div>
+###### components/table.js code overview
 ![table.js](https://s3.amazonaws.com/canvasmp3/table.png)
 <strong>components/table_head.es6.js</strong>
 ![table head row](https://s3.amazonaws.com/canvasmp3/header.png)
-<div style="text-align:center;font-style: italic;">  code </div>
+###### code
 ![table_head.es6.js](https://s3.amazonaws.com/canvasmp3/tableHeader.png)
 <strong>components/table_row.es6.js</strong>
 ![table row](https://s3.amazonaws.com/canvasmp3/row.png)
-<div style="text-align:center;font-style: italic;"> code</div>
+###### code
 
 <p>Comming soon. . . . </p>
 #React Overview:
@@ -111,7 +111,7 @@ var wordSum = word.split('').reduce((sum,letter) => {
 
 console.log('wordSum', wordSum);
  ```
- ##### convert letters to ASCII numbers
+##### convert letters to ASCII numbers
 
 ```javascript
 var word = "Pete"
