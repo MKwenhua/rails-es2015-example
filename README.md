@@ -18,20 +18,20 @@
 <p><b>FYI: </b> the <a href="https://github.com/MKwenhua/rails-es2015-example/tree/constructors">constructors branch</a> is the better solution.</p>
 </section>
 #File Overview
-<strong>interface.js</strong>
+## interface.js
 ![interface.js](https://s3.amazonaws.com/canvasmp3/interface_js.png)
-<strong>layout.js</strong>
+## layout.js
 ![layout.js top](https://s3.amazonaws.com/canvasmp3/layout1.png)
 ![layout.js bottom](https://s3.amazonaws.com/canvasmp3/layout2.png)
-<strong>components/table.js</strong>
+## components/table.js
 ![table component](https://s3.amazonaws.com/canvasmp3/table_comp.gif)
 ###### components/table.js code overview
 ![table.js](https://s3.amazonaws.com/canvasmp3/table.png)
-<strong>components/table_head.es6.js</strong>
+## components/table_head.es6.js
 ![table head row](https://s3.amazonaws.com/canvasmp3/header.png)
 ###### code
 ![table_head.es6.js](https://s3.amazonaws.com/canvasmp3/tableHeader.png)
-<strong>components/table_row.es6.js</strong>
+## components/table_row.es6.js
 ![table row](https://s3.amazonaws.com/canvasmp3/row.png)
 ###### code
 
