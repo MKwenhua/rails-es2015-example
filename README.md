@@ -1,4 +1,3 @@
-
 <strong>Steps needed to set up:</strong>
 <ol>
 <li>npm install</li>
@@ -34,8 +33,8 @@
 ## components/table_row.es6.js
 ![table row](https://s3.amazonaws.com/canvasmp3/row.png)
 ###### code
+![table_row.es6.js](https://s3.amazonaws.com/canvasmp3/table_row_item_ex.png)
 
-<p>Comming soon. . . . </p>
 #React Overview:
 
 <p>will add later</p>
